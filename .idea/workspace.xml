@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b6cc5e5-f206-444c-952b-c62d8b4517e5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntEqualityPrinter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IntEqualityPrinter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayingCat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PlayingCat/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EvenDigitSum/src/EvenDigitSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvenDigitSum/src/EvenDigitSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EvenDigitSum/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/EvenDigitSum/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactorPrinter/src/FactorPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactorPrinter/src/FactorPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactorPrinter/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FactorPrinter/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLastDigitSum/src/FirstLastDigitSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/FirstLastDigitSum/src/FirstLastDigitSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstLastDigitSum/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FirstLastDigitSum/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlourPacker/src/FlourPacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlourPacker/src/FlourPacker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlourPacker/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlourPacker/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreatestCommonDivisor/src/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreatestCommonDivisor/src/GreatestCommonDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreatestCommonDivisor/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GreatestCommonDivisor/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hands-On-JAVA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleCalculator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleCalculator/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleCalculator/src/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleCalculator/src/SimpleCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +26,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="28JLzBvcPmsuVy1tPEp6T4bj7Ap" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,10 +56,22 @@
       <workItem from="1650930129252" duration="3000" />
       <workItem from="1651792579958" duration="7000" />
       <workItem from="1652222336356" duration="14000" />
+      <workItem from="1654204100343" duration="428000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
