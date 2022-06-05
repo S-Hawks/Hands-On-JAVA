@@ -30,7 +30,7 @@ public class Point {
     public double distance(int x, int y){
          return Math.sqrt(Math.pow((x - getX()), 2) + Math.pow((y- getY()), 2));
     }
-    public double distance(Point other){
-        return distance(other.x, other.y);
+    public double distance(Point other){  //Mainly known as reference.Though Java is pass by value.
+        return distance(other.x, other.y);//More deeply java has reference by value.
     }
 }
