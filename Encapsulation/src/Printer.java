@@ -13,26 +13,27 @@ public class Printer {
         this.duplex = duplex;
         this.pagesPrinted = 0;
     }
-    public int addToner(int tonerAmount){
-        if(tonerAmount > 0 && tonerAmount < 100){
-            if(tonerAmount + this.tonerLevel > 100){
+    public int addToner(int tonerAmount) {
+        if (tonerAmount > 0 && tonerAmount < 100) {
+            if (tonerAmount + this.tonerLevel > 100) {
                 return -1;
             }
-            else{
-                return tonerLevel += tonerAmount;
-            }
+            this.tonerLevel += tonerAmount;
+            return this.tonerLevel;
         }
         return -1;
     }
-    public int printPages(int pages){
-        int pagesToPrint = pages;
-        if(this.duplex){
-            System.out.println("Printing in duplex mode");
-            return this.pagesPrinted += pagesToPrint/2 + pagesToPrint % 2;
+        public int printPages ( int pages){
+            int pagesToPrint = pages;
+            if (this.duplex) {
+                System.out.println("Printing in duplex mode");
+                pagesToPrint = (pages/2) + (pages % 2);
+            }
+            this.pagesPrinted += pagesToPrint;
+            return pagesToPrint;
         }
-        return this.pagesPrinted += pagesToPrint;
-    }
-    public int getPagesPrinted(){
+
+    public int getPagesPrinted() {
         return pagesPrinted;
     }
 }
