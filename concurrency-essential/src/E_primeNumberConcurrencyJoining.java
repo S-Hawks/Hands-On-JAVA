@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class E_primeNumberConcurrencyJoining {
     public static void main(String[] args) {
         List<Thread> threads = new ArrayList<>();
-        //This thread is used for counting status. && use labda for runnable
+        //This thread is used for counting status. && use lambda for runnable
         Runnable statusReporter = () -> {
             //pause for 5 second if not the next thread will not run.
             try{
@@ -29,7 +29,7 @@ public class E_primeNumberConcurrencyJoining {
             if(n == 0){
                 reporterThread.interrupt();
                 try{
-                    System.out.println("Wating for all threads to finish...");
+                    System.out.println("Waiting for all threads to finish...");
                     waitForThread(threads);
                     System.out.println("Done with the application. " + threads.size() + "primes");
                 }catch (InterruptedException e){
