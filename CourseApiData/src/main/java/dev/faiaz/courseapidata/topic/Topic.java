@@ -1,4 +1,4 @@
-package dev.faiaz.courseapidata;
+package dev.faiaz.courseapidata.topic;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 

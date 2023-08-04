@@ -1,4 +1,4 @@
-package dev.faiaz.courseapidata;
+package dev.faiaz.courseapidata.topic;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
