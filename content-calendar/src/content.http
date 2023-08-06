@@ -30,3 +30,6 @@ Content-Type: application/json
   "dateUpdated": "2023-08-06T03:48:06.134435423",
   "url": ""
 }
+
+###Delete request
+DELETE http://localhost:8080/api/contant/1

@@ -2,6 +2,7 @@ package dev.personal.contentcalendar.controller;
 
 import dev.personal.contentcalendar.model.Content;
 import dev.personal.contentcalendar.repository.ContentCollectionRepository;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
@@ -29,7 +30,7 @@ public class ContentController {
 
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping("")
-    public void create(@RequestBody Content content){
+    public void create(@Valid @RequestBody Content content){
         repository.save(content);
     }
 
@@ -43,5 +44,6 @@ public class ContentController {
     }
     @DeleteMapping("/{id}")
     public void delete(@PathVariable Integer id){
+        repository.delete(id);
     }
 }
