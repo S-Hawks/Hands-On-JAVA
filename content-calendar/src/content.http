@@ -1,0 +1,32 @@
+###Get All Content
+GET http://localhost:8080/api/contant
+
+###Get Content By Id
+GET http://localhost:8080/api/contant/2
+
+###Post Request
+POST http://localhost:8080/api/contant
+Content-Type: application/json
+
+{
+  "id": 2,
+  "title": "Second Blog Post",
+  "status": "IDEA",
+  "contentType": "ARTICLE",
+  "dateCreated": "2023-08-06T03:48:06.134299675",
+  "dateUpdated": "2023-08-06T03:48:06.134435423",
+  "url": ""
+}
+### Put by id
+PUT http://localhost:8080/api/contant/2
+Content-Type: application/json
+
+{
+  "id": 2,
+  "title": "SECOND BLOG POST",
+  "status": "IDEA",
+  "contentType": "ARTICLE",
+  "dateCreated": "2023-08-06T03:48:06.134299675",
+  "dateUpdated": "2023-08-06T03:48:06.134435423",
+  "url": ""
+}
