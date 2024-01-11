@@ -16,6 +16,8 @@ public class Exercise2 {
 
         ReactiveSources.userFlux().subscribe(user -> System.out.println(user));
 
+        //print all user in the ReactiveSources.userFlux stream.
+
 
         System.out.println("Press a key to end");
         try {

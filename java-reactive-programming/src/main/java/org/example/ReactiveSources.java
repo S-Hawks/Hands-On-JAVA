@@ -16,6 +16,11 @@ public class ReactiveSources {
                 .delayElements(Duration.ofSeconds(1));
     }
 
+    public static Mono<Integer> intNumberMono(){
+        return Mono.just(42)
+                .delayElement(Duration.ofSeconds(1));
+    }
+
     public static Flux<Integer> intNumberFluxWithException(){
         return Flux
                 .range(1,10)
