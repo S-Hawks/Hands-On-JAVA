@@ -3,6 +3,7 @@ package org.example;
 import javax.print.attribute.standard.RequestingUserName;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.List;
 
 public class Exercise6 {
     public static void main(String[] args) throws IOException {
@@ -13,7 +14,9 @@ public class Exercise6 {
 
 
         //Get the value from unresponsiveFlux into a String list but give up after 5 seconds
-        //Come back and do this when you learn about operators!
+        //Collect list mainly provide mono(single element) of list
+
+        List<String> list = ReactiveSources.unresponsiveFlux().collectList().block(Duration.ofSeconds(5));
 
 
         System.out.println("Press a key to end");
